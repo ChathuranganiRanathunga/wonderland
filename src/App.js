@@ -1,10 +1,16 @@
 import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
+import Home from "./Components/Home/Home";
+import Main from "./Components/Main/Main";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <h1> Hello Chathurangani Ranathunga! </h1>{" "}
-      <h3> Let 's Rock with React! </h3>{" "}
+      <Navbar />
+      {/*<Home />
+      <Main />
+  <Footer />*/}
     </div>
   );
 }
