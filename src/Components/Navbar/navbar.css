@@ -47,7 +47,7 @@
     height: max-content;
     width: 80%;
     border-radius: 1rem;
-    top: 6rem;
+    top: -500rem;
     left: 50%;
     padding: 1rem;
     transform: translate(-50%);
@@ -55,28 +55,28 @@
     box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
     transition: 0.3s ease-in-out;
   }
-  .navlists {
+  .navBar .navlists {
     flex-direction: column;
     justify-content: center;
     width: 100%;
     margin: auto;
     padding: 0.5rem 0;
   }
-  .navlists .navItem {
+  .navBar .navlists .navItem {
     padding: 0.5rem 0;
   }
-  .navlists .navItem .navLink {
+  .navBar .navlists .navItem .navLink {
     color: var(--textColor);
     font-size: 0.9rem;
     font-weight: 600;
   }
-  .navlists .navItem .navLink:hover {
+  .navBar .navlists .navItem .navLink:hover {
     color: var(--PrimaryColor);
   }
-  .navlists .btn {
+  .navBar .navlists .btn {
     margin-top: 1rem;
   }
-  .navlists .btn a {
+  .navBar .navlists .btn a {
     font-weight: 600;
     color: var(--whiteColor);
   }
@@ -88,6 +88,9 @@
   }
   .closeNavBar:hover {
     color: var(--SecondaryColor);
+  }
+  .activeNavbar {
+    top: 7rem;
   }
 }
 .toggleNavbar .icon {
