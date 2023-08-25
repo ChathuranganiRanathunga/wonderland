@@ -1,7 +1,8 @@
 import React from "react";
 import "./navbar.css";
 import { MdTravelExplore } from "react-icons/md";
-
+import { AiFillCloseCircle } from "react-icons/ai";
+import { PiDotsNineBold } from "react-icons/pi";
 const Navbar = () => {
   return (
     <section class="navBarSection">
@@ -14,7 +15,7 @@ const Navbar = () => {
             </h1>
           </a>
         </div>
-        <div className="navbar">
+        <div className="navBar">
           <ul className="navlists flex">
             <li className="navItem">
               <a href="#" className="navLink">
@@ -55,6 +56,12 @@ const Navbar = () => {
               <a href="#">BOOK NOW</a>
             </button>
           </ul>
+          <div className="closeNavBar">
+            <AiFillCloseCircle className="icon" />
+          </div>
+        </div>
+        <div className="toggleNavbar">
+          <PiDotsNineBold />
         </div>
       </header>
     </section>
