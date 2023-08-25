@@ -61,7 +61,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="toggleNavbar">
-          <PiDotsNineBold />
+          <PiDotsNineBold className="icon" />
         </div>
       </header>
     </section>
